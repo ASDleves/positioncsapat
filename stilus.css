@@ -1,0 +1,26 @@
+main{
+    margin: auto;
+    max-width: 1000px;
+}
+
+article img{
+    border-radius: 10px;
+}
+.ablak{
+    width: 400px;
+    position: absolute;
+    border:1px solid gray;
+    padding:10px ;
+    margin: 10px;
+    height: 100px;
+}
+.bezar h1 {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.lehetoseg ul {
+    position: absolute;
+    bottom: 10px;
+
+}
