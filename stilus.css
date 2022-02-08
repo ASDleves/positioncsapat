@@ -1,0 +1,56 @@
+header, article, aside{
+    border: 1px solid black;
+}
+
+header>ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+
+main{
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-areas: "he"
+                           "ar"
+                           "as";
+    grid-template-columns: 1fr;
+}
+
+header{
+    height: 110px;
+    grid-area: he;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    list-style-type: none;
+}
+
+.almenu{
+    display: none;
+    position: absolute;
+}
+
+.almenu:hover{
+    display: block;
+}
+
+
+.legordulo:hover .almenu{
+    display: block;
+    list-style-type: none;
+}
+
+
+article{
+    grid-area: ar;
+}
+
+aside{
+    grid-area: as;
+}
+
+
